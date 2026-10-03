@@ -45,7 +45,11 @@ fn menu_markup(lang: &LanguageIdentifier) -> InlineKeyboardMarkup {
             InlineKeyboardButton::callback(tr(lang, "btn-probe-db"), "opt_1"),
             InlineKeyboardButton::callback(tr(lang, "btn-take-screenshot"), "opt_2"),
         ],
-        vec![InlineKeyboardButton::callback(tr(lang, "btn-help"), "help")],
+        vec![
+            InlineKeyboardButton::callback(tr(lang, "btn-manual-control"), "help"),
+            InlineKeyboardButton::callback(tr(lang, "btn-logout"), "help"),
+            InlineKeyboardButton::callback(tr(lang, "btn-clean-data"), "help")
+        ],
     ])
 }
 

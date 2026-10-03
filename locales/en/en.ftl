@@ -14,10 +14,14 @@ btn-extract-now = 📥 Extract Now
 btn-probe-db = 🗄️ Probe DB
 btn-take-screenshot = 📸 Take Screenshot
 
+btn-manual-control = 🖱️ Manual control
+btn-logout = ⬅️ Log Out
+btn-clean-data = ⚠️ Clean Data
+
 selected-opt-1 = 📥 Extraction module initialized.
 selected-opt-2 = ⚙️ Settings panel.
 help-text = ℹ️ Help: Select an action above or use /help for commands.
-unknown-opt = ⚠️ Unknown selection.
+unknown-opt =  Unknown selection.
 help-cmd =
     Available commands:
       /start — Open the main control panel
